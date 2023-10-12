@@ -1,0 +1,85 @@
+  .nav2 {
+    height: 100px;
+    margin-top: 40px;
+    position: fixed;
+    z-index: 100;
+  }
+
+  .nav11 {
+    background-color: white;
+    margin-top: 49px;
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+  }
+
+  .image1divv,
+  .image1div {
+    text-align: center;
+    width: 120px;
+    flex: 0 0 auto;
+    margin-right: 10px;
+    margin-left: 50px;
+  }
+
+  .image {
+    display: block;
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+  }
+
+  .text_center {
+    margin-top: 10px;
+  }
+
+  /* Responsive Styles for Tablet and Mobile Views */
+  @media screen and (max-width: 768px) {
+    .image1divv,
+    .image1div {
+      width: 80px; /* Adjust width for smaller screens */
+      margin-left: 20px;
+      margin-right: 0;
+    }
+
+    .nav11 {
+      margin-top: 49px; /* Adjust the margin for better spacing */
+    }
+
+    .filter_button {
+      width: 80px; /* Adjust the button width */
+      margin-left: 20px;
+    }
+
+    .taxes_button {
+      width: 200px; /* Adjust the button width */
+      margin-left: 15px;
+    }
+  }
+
+  /* Responsive Styles for Mobile View */
+  @media screen and (max-width: 576px) {
+    .image1divv,
+    .image1div {
+      width: 60px; /* Further adjust width for smaller screens */
+      margin-left: 10px;
+    }
+
+    .nav11 {
+      margin-top: 0px; /* Adjust the margin for better spacing */
+    }
+
+    .filter_button {
+      width: 60px; /* Further adjust the button width */
+      margin-left: 10px;
+    }
+
+    .taxes_button {
+      width: 93px; /* Further adjust the button width */
+      margin-left: 10px;
+      height: 75px;
+    }
+  }
+
+  /* Add more responsive styles as needed for other elements */
